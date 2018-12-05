@@ -1,0 +1,56 @@
+﻿El archivo se inicio correctamente || 12-9-2018 2:37:50
+Se agregó el usuario admin con la id 1 || 12-9-2018 2:38:2
+El archivo se inicio correctamente || 12-9-2018 2:52:57
+Se agregó el usuario hola con la id 2 || 12-9-2018 2:53:6
+El archivo se inicio correctamente || 12-9-2018 3:1:29
+Se agregó el usuario usuario con la id 3 || 12-9-2018 3:1:59
+El archivo se inicio correctamente || 12-9-2018 3:3:39
+Se agregó el usuario usuario con la id 45 || 12-9-2018 3:3:48
+El archivo se inicio correctamente || 12-9-2018 3:4:34
+El archivo se inicio correctamente || 12-9-2018 3:4:48
+El archivo se inicio correctamente || 12-9-2018 3:5:12
+Se agregó el usuario hola con la id 39 || 12-9-2018 3:5:19
+El archivo se inicio correctamente || 12-9-2018 3:16:35
+El archivo se inicio correctamente || 12-9-2018 3:20:50
+El archivo se inicio correctamente || 26-9-2018 15:17:49
+El archivo se inicio correctamente || 26-9-2018 15:19:10
+Se agregó el usuario hola con la id 1 || 26-9-2018 15:19:44
+El archivo se inicio correctamente || 26-9-2018 15:20:8
+El archivo se inicio correctamente || 26-9-2018 15:21:56
+El archivo se inicio correctamente || 26-9-2018 15:25:13
+El archivo se inicio correctamente || 3-11-2018 15:47:12
+El archivo se inicio correctamente || 3-11-2018 16:30:58
+Se agregó el usuario javax.swing.JTextField[,194,24,186x20,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@4f414096,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],disabledTextColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],selectedTextColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],selectionColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING] con la id 0 || 3-11-2018 16:31:19
+El archivo se inicio correctamente || 3-11-2018 16:31:37
+El archivo se inicio correctamente || 3-11-2018 16:58:23
+Se agregó el usuario user1 con la id 45 || 3-11-2018 16:58:36
+El archivo se inicio correctamente || 3-11-2018 16:58:52
+El archivo se inicio correctamente || 3-11-2018 22:25:59
+El archivo se inicio correctamente || 3-11-2018 22:50:17
+El archivo se inicio correctamente || 3-11-2018 22:51:1
+El archivo se inicio correctamente || 3-11-2018 22:52:30
+El archivo se inicio correctamente || 3-11-2018 22:54:48
+El archivo se inicio correctamente || 3-11-2018 22:56:6
+El archivo se inicio correctamente || 3-11-2018 22:56:27
+El archivo se inicio correctamente || 3-11-2018 23:23:40
+El archivo se inicio correctamente || 3-11-2018 23:24:54
+El archivo se inicio correctamente || 3-11-2018 23:30:47
+El archivo se inicio correctamente || 3-11-2018 23:31:25
+El archivo se inicio correctamente || 3-11-2018 23:36:50
+El archivo se inicio correctamente || 3-11-2018 23:37:25
+Se agregó el usuario us con la id 23 || 3-11-2018 23:37:40
+El archivo se inicio correctamente || 3-11-2018 23:40:4
+El archivo se inicio correctamente || 3-11-2018 23:40:57
+Se agregó el usuario usi con la id 2 || 3-11-2018 23:41:9
+El archivo se inicio correctamente || 4-11-2018 13:12:37
+Se agregó el usuario usuario con la id 7487 || 4-11-2018 13:12:55
+El archivo se inicio correctamente || 4-11-2018 13:13:25
+El archivo se inicio correctamente || 4-11-2018 13:14:10
+El archivo se inicio correctamente || 4-11-2018 13:18:26
+El archivo se inicio correctamente || 4-11-2018 13:19:30
+El archivo se inicio correctamente || 4-11-2018 13:20:25
+El archivo se inicio correctamente || 4-11-2018 13:21:30
+El archivo se inicio correctamente || 4-11-2018 13:21:54
+El archivo se inicio correctamente || 4-11-2018 13:22:18
+El archivo se inicio correctamente || 4-11-2018 13:41:30
+El archivo se inicio correctamente || 4-11-2018 13:42:1
