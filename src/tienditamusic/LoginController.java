@@ -13,6 +13,8 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 
 /**
  *
@@ -40,7 +42,8 @@ public class LoginController implements Initializable {
             menuStage.show();
         }
         else{
-            AlertBox.mostrarPopUp("Credenciales Incorrectas", "Nombre o contraseña incorrectos, por favor vuelva a iniciar sesion");
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Credenciales incorrectas, por favor intente de nuevo", ButtonType.OK);
+            alert.showAndWait();
         }
     }
 
