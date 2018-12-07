@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
- * Se almacena en ListaProductos, posee una coleccion HashMap de Discos
- *
+ * La instancia MapaDiscos contiene una colección de clase HashMap que contiene instancias Disco. 
+ * Se encuentra almacenada en ListaProductos.
  * @author Carlos Cubillos
  * @author Tomás Rojas
  * @see ListaProductos
@@ -19,9 +19,8 @@ public class MapaDiscos{
     public MapaDiscos(){
         mapDiscos = new HashMap<>();
     }
- 
     /**
-     * Añade un Disco otorgado al mapa
+     * Añade una referencia a clase Disco recibida por parámetro.
      * 
      * @param disco 
      */
@@ -30,10 +29,10 @@ public class MapaDiscos{
     }
     
     /**
-     * Elimina el Disco respectivo al ID en mapDiscos y lo retorna
+     * Elimina la referencia respectiva al Id en mapDiscos y lo retorna.
      * 
      * @param id
-     * @return Retorna el Disco eliminado, de fallar la operacion retorna null
+     * @return Retorna el Disco eliminado, de fallar la operacion retorna null.
      */
     public Disco eliminarDisco(int id) {
         if(mapDiscos.get(id)!=null){
@@ -41,15 +40,14 @@ public class MapaDiscos{
         }
         return null;
     }
- 
     /**
-     * Obtiene y reemplaza el Disco de mapDiscos, no puede modificar su ID
+     * Obtiene y reemplaza el Disco de mapDiscos, para ello no puede ni debe cambiar su atributo Id.
      * 
-     * @param disco
-     * @return Retorna true si se edita con exito
+     * @param Una referencia a instancia de clase Disco. 
+     * @return Retorna true si se edita con éxito.
      */
     public boolean editarDisco(Disco disco) {
-        if(mapDiscos.get(disco.getId())!=null){
+        if (mapDiscos.get(disco.getId())!=null){
             agregarDisco(disco);
             return true;
         }
@@ -57,10 +55,10 @@ public class MapaDiscos{
     }
     
     /**
-     * Busca un Disco por ID en mapDiscos y lo retorna de encontrarlo
+     * Busca un Disco por Id en mapDiscos y lo retorna en caso de encontrarlo.
      * 
      * @param id
-     * @return Retorna el Disco de encontrarlo, si no retorna null
+     * @return Disco en caso de encontrarlo, de lo contrario retorna null.
      */
     public Disco buscarDisco(int id){
         if(mapDiscos.get(id)!=null){
@@ -70,12 +68,12 @@ public class MapaDiscos{
     }
     
     /**
-     * Busca y entrega todos los discos que posea un autor
-     * 
-     * @param autor
-     * @return Retorna un ArrayList de Discos del Autor y null de no tener
+     * Busca y entrega todas las referencias a Disco cuyo valor del atributo "autor" coincidan con el valor del String "autor" entregado.
+     * @param String autor: variable que representa el nombre del autor o artista cuyos discos se desea encontrar.
+     * @return Retorna una colección ArrayList con referencias a clase Disco del Autor referido; retorna null en caso de no encontrar 
+       ninguna referencia con la condición mencionada.
      */
-    public ArrayList<Disco> buscarDiscoAutor(String autor){
+    public ArrayList<Disco> buscarDiscoAutor(String autor) {
         Iterator it = mapDiscos.entrySet().iterator();
         ArrayList<Disco> discosAutor;
         discosAutor = new ArrayList<>();
@@ -90,10 +88,9 @@ public class MapaDiscos{
     }
     
     /**
-     * Busca y entrega todos los discos que posean el titulo entregado
-     * 
-     * @param titulo
-     * @return Retorna un ArrayList de Discos con el mismo titulo, null si falla
+     * Busca y entrega referencias de todas las instancias Disco que posean como título el valor del String entregado por el parámetro "título".
+     * @param String con el Título.
+     * @return Un ArrayList de referencias a objetos clase Disco cuyo atributo título se corresponde al valor del String ingresado, null en caso de no encontrar alguno.
      */
     public ArrayList<Disco> buscarDiscoTitle(String titulo){
         Iterator it = mapDiscos.entrySet().iterator();
