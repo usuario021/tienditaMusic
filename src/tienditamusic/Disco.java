@@ -3,7 +3,7 @@ package tienditamusic;
 import java.util.Calendar;
 
 /**
- * Clase primitiva, extiende de producto y es manejada por MapaDiscos
+ * Clase primitiva, extiende de Producto, es manejada por MapaDiscos
  * 
  * @author Carlos Cubillos
  * @author Tomás Rojas
@@ -19,6 +19,10 @@ public class Disco extends Producto {
      */
     private int tiempo;
     private Calendar fechaLanzamiento;
+    /**
+     * Posee una listaTracks para manejar
+     */
+    private ListaTracks listaTracks;
 
     public Disco(String autor, int tracks, int tiempo, Calendar fechaLanzamiento, int id, String nombre, double precio, String descripcion) {
         super(id, nombre, precio, descripcion);
