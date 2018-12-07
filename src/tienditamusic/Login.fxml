@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="482.0" style="-fx-background-color: lightblue" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tienditamusic.LoginController">
+  <children>
+    <GridPane id="GridPane" layoutX="48.0" layoutY="115.0">
+      <children>
+        <TextField fx:id="username" prefWidth="200.0" promptText="Ingrese nombre de usuario" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <PasswordField fx:id="password" prefWidth="200.0" promptText="Ingrese contraseña" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+      </columnConstraints>
+      <hgap>
+        <Long fx:value="10" />
+      </hgap>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <vgap>
+        <Long fx:value="10" />
+      </vgap>
+    </GridPane>
+    <Label layoutX="45.0" layoutY="36.0" text="Bienvenido a su gestor de tienda de musica." textFill="#664900">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Label>
+    <Label fx:id="header" layoutX="49.0" layoutY="76.0" text="Por favor inicie sesion:" textFill="#865115">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <ImageView fitHeight="88.0" fitWidth="85.0" layoutX="364.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@vinyl.png" />
+      </image>
+    </ImageView>
+      <Button id="loginButton" fx:id="loginButton" layoutX="141.0" layoutY="204.0" mnemonicParsing="false" onAction="#logear" prefHeight="31.0" prefWidth="200.0" text="Iniciar sesion" />
+  </children>
+</AnchorPane>
