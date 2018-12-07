@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Esta clase permite generar la ventana definida para el ejercicio exclusivo de las labores administrativas de la tienda.
+ * Provee un mensaje que da la bienvenida a la plataforma.
+ * Provee 7 botones, donde cada uno se corresponde con una funcionalidad diferente que es propia del administrador/es;
+   exceptuando el botón "Cerrar sesión" que retorna a la plataforma principal, todos los botones conducen a una ventana nueva.
  */
 package tienditamusic;
 
@@ -9,8 +10,7 @@ import java.awt.*;
 import java.io.*;
 
 /**
- *
- * @author rojas
+ * @author Tomás Rojas.
  */
 public class VentanaAdmin extends javax.swing.JFrame {
     TiendaMusica tienda;
@@ -46,24 +46,24 @@ public class VentanaAdmin extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Administrador");
+        setTitle("Administrador.");
         setResizable(false);
 
-        userFrame.setText("Administrar usuarios");
+        userFrame.setText("Administrar usuarios.");
         userFrame.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 userFrameMouseClicked(evt);
             }
         });
 
-        jButton2.setText("Cerrar sesion");
+        jButton2.setText("Cerrar sesión.");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Administrar ventas");
+        jButton3.setText("Administrar ventas.");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -71,25 +71,25 @@ public class VentanaAdmin extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
-        jLabel2.setText("Bienvenido! Eliga una opcion:");
+        jLabel2.setText("!Bienvenido!, seleccione una opción:");
 
-        jButton4.setText("Administrar productos");
+        jButton4.setText("Administrar productos.");
 
-        jButton5.setText("Generar reporte en pantalla");
+        jButton5.setText("Generar reporte en pantalla.");
         jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton5MouseClicked(evt);
             }
         });
 
-        jButton6.setText("Generar reporte en archivo");
+        jButton6.setText("Generar reporte en archivo.");
         jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton6MouseClicked(evt);
             }
         });
 
-        jButton7.setText("Administrar discos");
+        jButton7.setText("Administrar discos.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -158,7 +158,6 @@ public class VentanaAdmin extends javax.swing.JFrame {
 
     private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
         try {
-
             File objetofile = new File ("log.txt");
             Desktop.getDesktop().open(objetofile);
 
